@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+/*font-family: 'Oswald', sans-serif;*/
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightslategray;
+    
+
+}
+
+/*==============HEADER================*/
+
+header .beatlestitle{
+    text-decoration: none;
+    padding-top: 17px
+    
+}
+
+header{
+   background-color: #000; 
+}
+
+.logo1{
+    
+}
+
+
+header img{
+    height: 120px;
+    width: 136px;
+    
+}
+
+header h1{
+    font-family: 'Oswald', sans-serif;
+    color: #ff1a1a;
+    
+    font-size: 4em;
+    padding-top: 19px;
+    margin: 0 auto;
+    letter-spacing: 11px;
+    text-shadow:4px 4px 11px #fff; 
+}
+
+
+.beatlescontainer{
+    width: 100%;
+    display: flex;
+    
+    justify-content: space-between;
+    
+    
+}
+
+/*==============   NAVIGATION ==================*/
+
+.theband{
+    display: flex;
+    justify-content: space-around;
+}
+
+.beatlenav{
+    
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 2px;
+    
+}
+
+
+
+
+nav{
+    background: #333;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    text-align: center ;
+}
+
+
+
+nav a{
+    text-decoration: none !important;
+    text-align: center ;
+    color: #fff;
+    font-size: 19px;
+    display: block;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    transition: 300ms ease-in-out;
+}
+nav a:hover{
+    text-decoration: none;
+    background-color: #000;
+    color: #ff1a1a;
+    font-size: 22px;
+    //letter-spacing: 4px;
+    padding: 10px;
+}
+
+/*===========SECTION AREA (THE BAND).===============*/
+
+#bandpics img{
+    width: 100%;
+    height: auto;
+    border-radius: 2%;
+}
+
+.john{
+    padding: 10px;
+    
+}
+
+.paul{
+    padding: 10px;
+    
+    
+}
+.ringo{
+    padding: 10px;
+}
+
+.george{
+    padding: 10px
+}
+
+/*=========SECTION,PROFILE===========*/
+
+
+.profile{
+    display: flex;
+}
+
+.thebeaTles{
+    width: 75%;
+    height: auto;
+    background-color: #000;
+}
+
+.thebeaTles h1{
+    padding: 13px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 8px;
+    font-size: 45px;
+    color: #ff1a1a;
+    text-shadow:4px 5px 9px darkgray; 
+    
+    
+}.thebeaTles p{
+    color: #fff;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    line-height: 22px;
+    padding: 7px
+    
+}
+
+hr{
+ border-color: #ff1a1a;
+ margin-bottom: 0;
+    margin-top: 0;
+}
+
+
+
+
+/*=========BOOTSTRAP 3 PART SECTION===========*/
+
+h1,h2,h3,h4{
+    margin: 0;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.general-sub{
+    text-align: center;
+    padding: 3px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #ff1a1a;
+    letter-spacing: 4px;
+    
+}
+
+.inline-block{
+    display: inline-block;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    line-height: 25px;
+    letter-spacing: 1px;
+    padding: 4px
+    
+    
+}
+
+section{
+    background-color: #333;
+    color: #fff;
+    min-height: 120px;
+    padding: 6px;
+    
+}
+
+.social-links{
+    margin-top:20px;
+    word-spacing: 14px;
+    max-width: 100%;
+    text-align: center
+}
+
+.social-links i{
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 19px;
+    line-height: 17px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 50%;
+    transition: 300ms ease-in-out;
+}
+
+.social-links i:hover{
+    background-color: #000;
+    color: #ff1a1a;
+}
+
+/*============FOOTER STYLES=================*/
+
+footer{
+    display: flex;
+}
+
+.footer-container{
+    background-color: #000;
+    width: 100%;
+    color: #ff1a1a;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    letter-spacing: 1.8px;
+    padding-top: 9px;
+}
+
+/*==============ABOUT PAGE JOHN LENNON===============*/
+
+.beatlebio{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.parjohn{
+    
+}
+.lennon{
+    float: left;
+    padding-right: 13px;
+    
+}
+.biojohn h3{
+    font-family: 'Oswald', sans-serif;
+    padding: 5px 0;
+    color: #ff1a1a;
+    
+}
+.biojohn{
+    width: 25%;
+    padding: 10px;
+    
+}
+
+/*==============ABOUT PAGE PAUL McCARTNEY===============*/
+
+.mccartney{
+    float: left;
+    padding-right: 13px;
+    
+}
+.biopaul h3{
+    font-family: 'Oswald', sans-serif;
+    padding: 5px 0;
+    color: #ff1a1a;
+    
+}
+.biopaul{
+    width: 25%;
+    padding: 10px;
+}
+
+/*==========ABOUT PAGE    RINGO STARR============*/
+
+.starr{
+    float: left;
+    padding-right: 10px;
+    
+}
+
+.bioringo{
+    width: 25%;
+    padding: 10px;
+}
+
+.bioringo h3{
+    font-family: 'Oswald', sans-serif;
+    padding: 5px 0;
+    color: #ff1a1a;
+    
+}
+
+/*=========ABOUT PAGE GEORGE HARRISON============*/
+
+.harrison{
+    float: left;
+    padding-right: 13px;
+    
+}
+
+.biogeorge{
+    width: 25%;
+    padding: 10px;
+}
+
+.biogeorge h3{
+    font-family: 'Oswald', sans-serif;
+    padding: 5px 0;
+    color: #ff1a1a;
+    
+}
+
+
+
+
+/*==========   MEDIA QUERYS   ===============*/
+
+@media screen and (min-width:768px){
+    nav ul{
+        display: flex;
+    }
+    nav li{
+        flex: 1 1 0;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .logo1{
+        display: none;
+    }
+    .logo2{
+        display: none;
+    }
+    
+}
+
+@media only screen and (max-width: 600px){
+    .logo1{
+        display: none;
+    }
+    .logo2{
+        display: none;
+    }
+    
+}
+@media only screen and (max-width: 767px){
+    .logo1{
+        display: none;
+    }
+    .logo2{
+        display: none;
+    }
+    header h1{
+        font-size: 3em;
+    }
+}
+
+    
+
+
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+    
+
+   
